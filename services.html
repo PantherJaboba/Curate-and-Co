@@ -3,307 +3,276 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services & Packages — Curate & Co.</title>
-    <meta name="description" content="Explore our boutique digital service packages starting at $500/month. Social media management, branding, and content creation with personalized care.">
+    
+    <!-- SEO Meta Tags -->
+    <title>Services & Pricing — Curate & Co. | Social Media Management Packages</title>
+    <meta name="description" content="Choose from three boutique social media management packages: Starter ($350-450/mo), Growth ($650-800/mo), or Pro ($1000-1400/mo). Instagram-first management for local businesses.">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="container nav-container">
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
             <a href="/" class="logo">Curate & Co.</a>
-            <button class="nav-toggle" aria-label="Toggle menu">
+            <button class="nav-toggle" aria-label="Toggle menu" id="navToggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="/">Home</a></li>
                 <li><a href="/services" class="active">Services</a></li>
                 <li><a href="/portfolio">Portfolio</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="/contact" class="btn-primary-small">Let's Connect</a></li>
+                <li><a href="/contact" class="btn btn-small btn-primary">Let's Connect</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <p class="page-eyebrow">Our Services</p>
-            <h1>Transparent Pricing for<br>Thoughtful Growth</h1>
-            <p class="page-description">Choose a package that fits your needs, or let us create a custom solution. Every plan includes our signature boutique care and strategic expertise.</p>
-        </div>
-    </section>
-
-    <!-- Pricing Packages -->
-    <section class="pricing-section">
-        <div class="container">
-            <div class="pricing-grid">
-                <!-- Starter Package -->
-                <div class="pricing-card" id="starter">
-                    <div class="pricing-header">
-                        <h3>Starter</h3>
-                        <div class="pricing-amount">
-                            <span class="price">$500</span>
-                            <span class="period">/month</span>
-                        </div>
-                        <p class="pricing-subtitle">Perfect for small businesses ready to establish their digital presence</p>
-                    </div>
-                    <div class="pricing-features">
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Social media management for up to 3 platforms</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Monthly content calendar (12 posts)</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Custom graphic design for all posts</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Basic branding consultation</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Mobile-optimized content</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Community engagement (3x per week)</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Monthly performance report</span>
-                        </div>
-                    </div>
-                    <a href="/contact" class="btn-outline">Get Started</a>
-                </div>
-
-                <!-- Growth Package -->
-                <div class="pricing-card featured" id="growth">
-                    <div class="popular-badge">Most Popular</div>
-                    <div class="pricing-header">
-                        <h3>Growth</h3>
-                        <div class="pricing-amount">
-                            <span class="price">$900</span>
-                            <span class="period">/month</span>
-                        </div>
-                        <p class="pricing-subtitle">For businesses ready to scale their online presence and engagement</p>
-                    </div>
-                    <div class="pricing-features">
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>All Starter package features</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Management for up to 5 platforms</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>20 posts per month + 4 stories/reels</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Advanced content creation including short video clips</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Comprehensive branding strategy session</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Daily community engagement</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Bi-weekly strategy calls</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Detailed analytics and insights report</span>
-                        </div>
-                    </div>
-                    <a href="/contact" class="btn-primary">Get Started</a>
-                </div>
-
-                <!-- Pro Package -->
-                <div class="pricing-card" id="pro">
-                    <div class="pricing-header">
-                        <h3>Pro</h3>
-                        <div class="pricing-amount">
-                            <span class="price">$1,500</span>
-                            <span class="period">/month</span>
-                        </div>
-                        <p class="pricing-subtitle">Complete digital presence management for established brands</p>
-                    </div>
-                    <div class="pricing-features">
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>All Growth package features</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Unlimited platform management</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>30 posts + 8 stories/reels per month</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Custom branding package (logo, style guide, templates)</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Weekly content updates and engagement</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Full social media advertising management</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Weekly strategy calls</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Priority support and dedicated account manager</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-check">✓</span>
-                            <span>Comprehensive monthly performance review</span>
-                        </div>
-                    </div>
-                    <a href="/contact" class="btn-outline">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Add-Ons -->
-    <section class="addons-section" id="addons">
+    <!-- Hero Section -->
+    <section class="hero" style="padding: var(--space-xl) 0;">
         <div class="container">
             <div class="section-header">
-                <h2>À La Carte Add-Ons</h2>
-                <p class="section-description">Enhance any package with these specialized services</p>
+                <span class="eyebrow">Services & Pricing</span>
+                <h1>Choose Your Package</h1>
+                <p>Three transparent pricing tiers designed for growing boutique businesses. Pick what fits your needs today—scale up as you grow. No hidden fees, no long-term contracts.</p>
             </div>
-            <div class="addons-grid">
-                <div class="addon-card">
-                    <h4>Website Design & Development</h4>
-                    <p class="addon-price">Starting at $2,500</p>
-                    <p>Custom, mobile-responsive website that reflects your brand's unique personality.</p>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section style="padding: var(--space-2xl) 0; background: var(--porcelain);">
+        <div class="container">
+            <div class="packages-grid">
+                
+                <!-- Starter Package -->
+                <div class="package-card" id="starter">
+                    <div class="package-name">Starter</div>
+                    <div class="package-price">$350-450</div>
+                    <div class="package-price-note">per month</div>
+                    
+                    <div class="package-perfect-for">
+                        <h4>Perfect For</h4>
+                        <p>Solo cafés, boutique shops, and local businesses just getting started with social media or needing consistent Instagram presence without the time commitment.</p>
+                    </div>
+                    
+                    <div class="package-includes">
+                        <h4>You Get</h4>
+                        <ul>
+                            <li>12-16 Instagram posts per month (3-4/week)</li>
+                            <li>Custom graphic design for each post</li>
+                            <li>Captions written in your brand voice</li>
+                            <li>Hashtag research & optimization</li>
+                            <li>Monthly content calendar (plan ahead)</li>
+                            <li>Basic engagement monitoring</li>
+                            <li>Monthly performance report</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="package-outcome">
+                        <h4>What This Creates</h4>
+                        <p>Consistent, professional Instagram presence that keeps your brand top-of-mind. Saves you 5+ hours per week while building audience trust and recognition.</p>
+                    </div>
+                    
+                    <a href="/contact" class="btn btn-primary" style="width: 100%; margin-top: var(--space-lg);">Get Started</a>
                 </div>
-                <div class="addon-card">
-                    <h4>Professional Photography Session</h4>
-                    <p class="addon-price">$750 per session</p>
-                    <p>On-brand product or lifestyle photography for authentic content creation.</p>
+                
+                <!-- Growth Package (Featured) -->
+                <div class="package-card featured" id="growth">
+                    <div class="package-name">Growth</div>
+                    <div class="package-price">$650-800</div>
+                    <div class="package-price-note">per month</div>
+                    
+                    <div class="package-perfect-for">
+                        <h4>Perfect For</h4>
+                        <p>Established small businesses ready to expand their reach across multiple platforms and engage more actively with their growing community.</p>
+                    </div>
+                    
+                    <div class="package-includes">
+                        <h4>You Get</h4>
+                        <ul>
+                            <li>20-24 posts per month across Instagram & Facebook</li>
+                            <li>4 Instagram Reels or Stories per month</li>
+                            <li>Custom graphics, templates & visual assets</li>
+                            <li>Strategic caption writing & hashtags</li>
+                            <li>Active community engagement (comments, DMs)</li>
+                            <li>Monthly content strategy session</li>
+                            <li>Detailed analytics & recommendations</li>
+                            <li>Quarterly strategy reviews</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="package-outcome">
+                        <h4>What This Creates</h4>
+                        <p>Multi-platform visibility with authentic audience engagement. Builds loyal community, drives foot traffic, and turns followers into customers. Saves 8+ hours weekly.</p>
+                    </div>
+                    
+                    <a href="/contact" class="btn btn-primary" style="width: 100%; margin-top: var(--space-lg);">Get Started</a>
                 </div>
-                <div class="addon-card">
-                    <h4>Email Marketing Campaign</h4>
-                    <p class="addon-price">$400 per campaign</p>
-                    <p>Strategic email sequences with custom design and compelling copy.</p>
+                
+                <!-- Pro Package -->
+                <div class="package-card" id="pro">
+                    <div class="package-name">Pro</div>
+                    <div class="package-price">$1,000-1,400</div>
+                    <div class="package-price-note">per month</div>
+                    
+                    <div class="package-perfect-for">
+                        <h4>Perfect For</h4>
+                        <p>Ambitious brands ready for comprehensive digital presence including advanced content, paid campaigns, and full-service social media strategy.</p>
+                    </div>
+                    
+                    <div class="package-includes">
+                        <h4>You Get</h4>
+                        <ul>
+                            <li>24-32 posts across 3-4 platforms (Instagram, Facebook, Pinterest, TikTok)</li>
+                            <li>8+ Reels, Stories, or short-form videos</li>
+                            <li>Professional photography session (monthly)</li>
+                            <li>Complete content strategy & planning</li>
+                            <li>Active engagement & community management</li>
+                            <li>Paid ad campaign management (budget separate)</li>
+                            <li>Influencer outreach & collaborations</li>
+                            <li>Weekly check-ins & monthly strategy calls</li>
+                            <li>Priority support & rush requests</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="package-outcome">
+                        <h4>What This Creates</h4>
+                        <p>Complete digital dominance in your local market. Professional-grade content, strategic growth, and measurable ROI. Your full marketing team for less than one employee.</p>
+                    </div>
+                    
+                    <a href="/contact" class="btn btn-primary" style="width: 100%; margin-top: var(--space-lg);">Get Started</a>
                 </div>
-                <div class="addon-card">
-                    <h4>Influencer Outreach Program</h4>
-                    <p class="addon-price">$600/month</p>
-                    <p>Identify, connect, and collaborate with influencers in your niche.</p>
+                
+            </div>
+            
+            <!-- Package Notes -->
+            <div style="max-width: 800px; margin: var(--space-xl) auto 0; text-align: center;">
+                <p style="font-size: 0.95rem; color: var(--charcoal); opacity: 0.8; margin: 0;">All packages are month-to-month with no long-term contracts. Pricing varies based on your specific needs, platforms, and content complexity. Book a free discovery call for exact pricing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add-Ons Section -->
+    <section style="padding: var(--space-2xl) 0; background: white;" id="addons">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Add-Ons</span>
+                <h2>Expand Your Package</h2>
+                <p>Need something extra? Add these services to any package.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-lg); margin-top: var(--space-xl);">
+                <div style="background: var(--porcelain); padding: var(--space-lg); border-radius: var(--radius); border: 2px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm);">Brand Photography</h3>
+                    <p style="font-size: 1.2rem; font-weight: 700; color: var(--deep-sage); margin-bottom: var(--space-sm);">$300-500/session</p>
+                    <p style="margin: 0; font-size: 0.95rem;">Professional photos of your products, space, and team. Includes editing and unlimited usage rights.</p>
                 </div>
-                <div class="addon-card">
-                    <h4>Paid Ad Campaign Management</h4>
-                    <p class="addon-price">15% of ad spend (min $300)</p>
-                    <p>Strategic planning, creative design, and optimization of paid social campaigns.</p>
+                
+                <div style="background: var(--porcelain); padding: var(--space-lg); border-radius: var(--radius); border: 2px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm);">Email Marketing</h3>
+                    <p style="font-size: 1.2rem; font-weight: 700; color: var(--deep-sage); margin-bottom: var(--space-sm);">$200-400/month</p>
+                    <p style="margin: 0; font-size: 0.95rem;">Monthly newsletter design, writing, and sending. Includes list management and performance tracking.</p>
                 </div>
-                <div class="addon-card">
-                    <h4>Brand Strategy Workshop</h4>
-                    <p class="addon-price">$1,200 one-time</p>
-                    <p>Intensive 3-hour workshop to define your brand voice, values, and visual identity.</p>
+                
+                <div style="background: var(--porcelain); padding: var(--space-lg); border-radius: var(--radius); border: 2px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm);">Website Updates</h3>
+                    <p style="font-size: 1.2rem; font-weight: 700; color: var(--deep-sage); margin-bottom: var(--space-sm);">$150-300/month</p>
+                    <p style="margin: 0; font-size: 0.95rem;">Regular content updates, blog posts, SEO optimization, and technical maintenance for your site.</p>
+                </div>
+                
+                <div style="background: var(--porcelain); padding: var(--space-lg); border-radius: var(--radius); border: 2px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm);">Logo & Branding</h3>
+                    <p style="font-size: 1.2rem; font-weight: 700; color: var(--deep-sage); margin-bottom: var(--space-sm);">Starting at $800</p>
+                    <p style="margin: 0; font-size: 0.95rem;">Complete brand identity package including logo, color palette, fonts, and brand guidelines.</p>
+                </div>
+                
+                <div style="background: var(--porcelain); padding: var(--space-lg); border-radius: var(--radius); border: 2px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm);">Paid Ad Management</h3>
+                    <p style="font-size: 1.2rem; font-weight: 700; color: var(--deep-sage); margin-bottom: var(--space-sm);">$300-600/month</p>
+                    <p style="margin: 0; font-size: 0.95rem;">Facebook & Instagram ad campaign strategy, setup, and optimization. Ad budget separate.</p>
+                </div>
+                
+                <div style="background: var(--porcelain); padding: var(--space-lg); border-radius: var(--radius); border: 2px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm);">Content Strategy</h3>
+                    <p style="font-size: 1.2rem; font-weight: 700; color: var(--deep-sage); margin-bottom: var(--space-sm);">$400 one-time</p>
+                    <p style="margin: 0; font-size: 0.95rem;">Comprehensive 90-day content roadmap, competitor analysis, and platform recommendations.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Package Comparison -->
-    <section class="comparison-section">
+    <!-- Comparison Table -->
+    <section style="padding: var(--space-2xl) 0; background: var(--porcelain);">
         <div class="container">
-            <h2>Package Comparison</h2>
-            <div class="comparison-table-wrapper">
-                <table class="comparison-table">
-                    <thead>
+            <div class="section-header">
+                <h2>Compare Packages</h2>
+                <p>See what's included in each tier at a glance</p>
+            </div>
+            
+            <div style="overflow-x: auto; margin-top: var(--space-xl);">
+                <table style="width: 100%; background: white; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm);">
+                    <thead style="background: var(--moss-green); color: white;">
                         <tr>
-                            <th>Feature</th>
-                            <th>Starter</th>
-                            <th>Growth</th>
-                            <th>Pro</th>
+                            <th style="padding: var(--space-md); text-align: left; font-weight: 600;">Feature</th>
+                            <th style="padding: var(--space-md); text-align: center; font-weight: 600;">Starter</th>
+                            <th style="padding: var(--space-md); text-align: center; font-weight: 600;">Growth</th>
+                            <th style="padding: var(--space-md); text-align: center; font-weight: 600;">Pro</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Monthly Price</td>
-                            <td>$500</td>
-                            <td>$900</td>
-                            <td>$1,500</td>
+                        <tr style="border-bottom: 1px solid var(--soft-sand);">
+                            <td style="padding: var(--space-md);">Monthly Posts</td>
+                            <td style="padding: var(--space-md); text-align: center;">12-16</td>
+                            <td style="padding: var(--space-md); text-align: center;">20-24</td>
+                            <td style="padding: var(--space-md); text-align: center;">24-32</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid var(--soft-sand);">
+                            <td style="padding: var(--space-md);">Platforms</td>
+                            <td style="padding: var(--space-md); text-align: center;">Instagram</td>
+                            <td style="padding: var(--space-md); text-align: center;">Instagram + Facebook</td>
+                            <td style="padding: var(--space-md); text-align: center;">3-4 Platforms</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid var(--soft-sand);">
+                            <td style="padding: var(--space-md);">Reels/Stories</td>
+                            <td style="padding: var(--space-md); text-align: center;">—</td>
+                            <td style="padding: var(--space-md); text-align: center;">4/month</td>
+                            <td style="padding: var(--space-md); text-align: center;">8+/month</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid var(--soft-sand);">
+                            <td style="padding: var(--space-md);">Custom Graphics</td>
+                            <td style="padding: var(--space-md); text-align: center;">✓</td>
+                            <td style="padding: var(--space-md); text-align: center;">✓✓</td>
+                            <td style="padding: var(--space-md); text-align: center;">✓✓✓</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid var(--soft-sand);">
+                            <td style="padding: var(--space-md);">Community Engagement</td>
+                            <td style="padding: var(--space-md); text-align: center;">Basic</td>
+                            <td style="padding: var(--space-md); text-align: center;">Active</td>
+                            <td style="padding: var(--space-md); text-align: center;">Full-Service</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid var(--soft-sand);">
+                            <td style="padding: var(--space-md);">Photography</td>
+                            <td style="padding: var(--space-md); text-align: center;">—</td>
+                            <td style="padding: var(--space-md); text-align: center;">Add-On</td>
+                            <td style="padding: var(--space-md); text-align: center;">Monthly</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid var(--soft-sand);">
+                            <td style="padding: var(--space-md);">Paid Ad Management</td>
+                            <td style="padding: var(--space-md); text-align: center;">—</td>
+                            <td style="padding: var(--space-md); text-align: center;">—</td>
+                            <td style="padding: var(--space-md); text-align: center;">✓</td>
                         </tr>
                         <tr>
-                            <td>Platforms Managed</td>
-                            <td>Up to 3</td>
-                            <td>Up to 5</td>
-                            <td>Unlimited</td>
-                        </tr>
-                        <tr>
-                            <td>Monthly Posts</td>
-                            <td>12</td>
-                            <td>20</td>
-                            <td>30</td>
-                        </tr>
-                        <tr>
-                            <td>Stories/Reels</td>
-                            <td>—</td>
-                            <td>4 per month</td>
-                            <td>8 per month</td>
-                        </tr>
-                        <tr>
-                            <td>Video Content</td>
-                            <td>—</td>
-                            <td>Short clips</td>
-                            <td>Full production</td>
-                        </tr>
-                        <tr>
-                            <td>Branding Services</td>
-                            <td>Basic consultation</td>
-                            <td>Strategy session</td>
-                            <td>Custom package</td>
-                        </tr>
-                        <tr>
-                            <td>Engagement</td>
-                            <td>3x per week</td>
-                            <td>Daily</td>
-                            <td>Daily + priority</td>
-                        </tr>
-                        <tr>
-                            <td>Strategy Calls</td>
-                            <td>Monthly</td>
-                            <td>Bi-weekly</td>
-                            <td>Weekly</td>
-                        </tr>
-                        <tr>
-                            <td>Ad Management</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>Included</td>
-                        </tr>
-                        <tr>
-                            <td>Reporting</td>
-                            <td>Monthly</td>
-                            <td>Detailed monthly</td>
-                            <td>Comprehensive weekly</td>
+                            <td style="padding: var(--space-md);">Strategy Sessions</td>
+                            <td style="padding: var(--space-md); text-align: center;">Monthly Report</td>
+                            <td style="padding: var(--space-md); text-align: center;">Monthly Call</td>
+                            <td style="padding: var(--space-md); text-align: center;">Weekly Check-ins</td>
                         </tr>
                     </tbody>
                 </table>
@@ -311,73 +280,42 @@
         </div>
     </section>
 
-    <!-- What's Included Across All Packages -->
-    <section class="included-section">
-        <div class="container">
-            <h2>What's Included in Every Package</h2>
-            <div class="included-grid">
-                <div class="included-item">
-                    <div class="included-icon">✓</div>
-                    <h4>Dedicated Account Manager</h4>
-                    <p>Your direct point of contact who knows your brand inside and out</p>
-                </div>
-                <div class="included-item">
-                    <div class="included-icon">✓</div>
-                    <h4>Content Calendar</h4>
-                    <p>Strategic planning with full visibility into upcoming posts</p>
-                </div>
-                <div class="included-item">
-                    <div class="included-icon">✓</div>
-                    <h4>Custom Graphics</h4>
-                    <p>Every post designed specifically for your brand—no templates</p>
-                </div>
-                <div class="included-item">
-                    <div class="included-icon">✓</div>
-                    <h4>Caption Copywriting</h4>
-                    <p>Engaging, on-brand copy that speaks to your audience</p>
-                </div>
-                <div class="included-item">
-                    <div class="included-icon">✓</div>
-                    <h4>Hashtag Research</h4>
-                    <p>Strategic hashtag selection to maximize reach and discoverability</p>
-                </div>
-                <div class="included-item">
-                    <div class="included-icon">✓</div>
-                    <h4>Performance Tracking</h4>
-                    <p>Clear metrics and insights to measure your growth</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- FAQ Section -->
-    <section class="faq-section">
+    <section style="padding: var(--space-2xl) 0; background: white;">
         <div class="container">
-            <h2>Frequently Asked Questions</h2>
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <h4>Are there any long-term contracts?</h4>
-                    <p>No! We work on a month-to-month basis. We believe in earning your business every single month through excellent service.</p>
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            
+            <div style="max-width: 800px; margin: var(--space-xl) auto 0;">
+                <div style="margin-bottom: var(--space-lg); padding-bottom: var(--space-lg); border-bottom: 1px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm); font-size: 1.2rem;">Do you require long-term contracts?</h3>
+                    <p style="margin: 0;">No! All packages are month-to-month. We believe in earning your business every month, not locking you into contracts. Cancel anytime with 30 days notice.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>Can I switch packages later?</h4>
-                    <p>Absolutely. As your business grows, you can upgrade or adjust your package at any time. We're here to support your journey.</p>
+                
+                <div style="margin-bottom: var(--space-lg); padding-bottom: var(--space-lg); border-bottom: 1px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm); font-size: 1.2rem;">What if I need to pause service?</h3>
+                    <p style="margin: 0;">Life happens! You can pause service for up to 2 months with a small holding fee, or cancel completely. We're flexible and understanding.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>What platforms do you manage?</h4>
-                    <p>Instagram, Facebook, Pinterest, LinkedIn, TikTok, Twitter/X, and more. We'll recommend the best platforms for your specific audience and goals.</p>
+                
+                <div style="margin-bottom: var(--space-lg); padding-bottom: var(--space-lg); border-bottom: 1px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm); font-size: 1.2rem;">How quickly can you start?</h3>
+                    <p style="margin: 0;">Most clients start within 1-2 weeks after our discovery call. We'll work together on a content calendar and kick off your first posts as soon as you're ready.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>Do you provide content, or do we?</h4>
-                    <p>We handle everything! From strategy to design to copywriting. You can provide input and brand assets, but content creation is our specialty.</p>
+                
+                <div style="margin-bottom: var(--space-lg); padding-bottom: var(--space-lg); border-bottom: 1px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm); font-size: 1.2rem;">Do you provide the images/photos?</h3>
+                    <p style="margin: 0;">It depends on your package. Starter clients provide photos (we'll give you shot lists!). Growth clients can add photography sessions. Pro clients get monthly professional photography included.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>What if I need something custom?</h4>
-                    <p>We love creating custom packages! If our standard offerings don't quite fit, reach out and we'll design something perfect for your needs.</p>
+                
+                <div style="margin-bottom: var(--space-lg); padding-bottom: var(--space-lg); border-bottom: 1px solid var(--soft-sand);">
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm); font-size: 1.2rem;">Can I switch packages later?</h3>
+                    <p style="margin: 0;">Absolutely! Many clients start with Starter and upgrade to Growth as they see results. You can scale up or down anytime based on your needs and budget.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>How quickly can we get started?</h4>
-                    <p>Typically within 5-7 business days after your discovery call. We'll onboard you thoughtfully and start creating content right away.</p>
+                
+                <div>
+                    <h3 style="color: var(--moss-green); margin-bottom: var(--space-sm); font-size: 1.2rem;">What makes you different from agencies?</h3>
+                    <p style="margin: 0;">You work directly with us—no account managers or layers of bureaucracy. We get to know your business personally, create custom content (no templates), and genuinely care about your success. Plus, we're way more affordable!</p>
                 </div>
             </div>
         </div>
@@ -385,16 +323,14 @@
 
     <!-- CTA Section -->
     <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Choose Your Package?</h2>
-                <p>Let's discuss which service level is right for your brand. Book a free 30-minute discovery call to explore your goals and find the perfect fit.</p>
-                <div class="cta-buttons">
-                    <a href="/contact" class="btn-primary-large">Book Your Discovery Call</a>
-                    <a href="/portfolio" class="btn-secondary-large">See Our Work First</a>
-                </div>
-                <p class="cta-note">No pressure, no sales pitch—just a genuine conversation about your brand</p>
+        <div class="cta-content">
+            <h2>Ready to Get Started?</h2>
+            <p>Book a free 30-minute discovery call. We'll learn about your business, answer your questions, and recommend the perfect package for your goals and budget.</p>
+            <div class="cta-buttons">
+                <a href="/contact" class="btn btn-primary btn-lg">Book Your Free Call</a>
+                <a href="/portfolio" class="btn btn-secondary btn-lg">See Our Work</a>
             </div>
+            <p style="font-size: 0.9rem; margin-top: var(--space-md); opacity: 0.9;">No pressure, no sales pitch—just honest advice for growing your brand.</p>
         </div>
     </section>
 
@@ -405,7 +341,8 @@
                 <div class="footer-brand">
                     <div class="footer-logo">Curate & Co.</div>
                     <p>Curated Content, Thoughtfully Made.</p>
-                    <p class="footer-tagline">A boutique digital studio for brands that value authenticity, warmth, and intentional growth.</p>
+                    <p>A boutique digital studio for brands that value authenticity, warmth, and intentional growth.</p>
+                    <p class="footer-location">📍 Hendersonville / Asheville Area, NC</p>
                 </div>
                 <div class="footer-links">
                     <h4>Navigation</h4>
@@ -420,16 +357,16 @@
                 <div class="footer-links">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="services.html#starter">Starter Package</a></li>
-                        <li><a href="services.html#growth">Growth Package</a></li>
-                        <li><a href="services.html#pro">Pro Package</a></li>
-                        <li><a href="services.html#addons">Add-Ons</a></li>
+                        <li><a href="/services#starter">Starter Package</a></li>
+                        <li><a href="/services#growth">Growth Package</a></li>
+                        <li><a href="/services#pro">Pro Package</a></li>
+                        <li><a href="/services#addons">Add-Ons</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
                     <h4>Connect</h4>
                     <ul>
-                        <li><a href="/cdn-cgi/l/email-protection#e9818c858586a98a9c9b889d8c88878d8a86c78a8684"><span class="__cf_email__" data-cfemail="a0c8c5cccccfe0c3d5d2c1d4c5c1cec4c3cf8ec3cfcd">[email&#160;protected]</span></a></li>
+                        <li><a href="mailto:hello@curateandco.com">hello@curateandco.com</a></li>
                         <li><a href="/contact">Book a Call</a></li>
                     </ul>
                 </div>
@@ -437,6 +374,7 @@
             <div class="footer-bottom">
                 <p>&copy; 2024 Curate & Co. All rights reserved.</p>
                 <p>Crafted with care and intention.</p>
+                <p class="footer-disclaimer">Portfolio projects are illustrative examples created to showcase our style and process.</p>
             </div>
         </div>
     </footer>

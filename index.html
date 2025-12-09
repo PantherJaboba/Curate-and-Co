@@ -3,99 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curate & Co. — Curated Content, Thoughtfully Made</title>
-    <meta name="description" content="Boutique digital media studio specializing in social media management, branding, and content creation with a warm, handcrafted approach.">
+    <title>Curate & Co. — Boutique Digital Studio | Social Media & Branding</title>
+    <meta name="description" content="Boutique digital media studio specializing in social media management, branding, and content creation. Starting at $500/month with personalized, handcrafted service.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Curate & Co. — Curated Content, Thoughtfully Made">
+    <meta property="og:description" content="Boutique digital studio for brands that value authenticity, warmth, and intentional growth.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://curateandco.com">
+    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="container nav-container">
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
             <a href="/" class="logo">Curate & Co.</a>
-            <button class="nav-toggle" aria-label="Toggle menu">
+            <button class="nav-toggle" aria-label="Toggle menu" id="navToggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="/" class="active">Home</a></li>
                 <li><a href="/services">Services</a></li>
                 <li><a href="/portfolio">Portfolio</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="/contact" class="btn-primary-small">Let's Connect</a></li>
+                <li><a href="/contact" class="btn btn-small btn-primary">Let's Connect</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <p class="hero-eyebrow">Welcome to Your Boutique Digital Studio</p>
-                <h1 class="hero-title">Curated Content,<br>Thoughtfully Made.</h1>
-                <p class="hero-description">We craft personalized digital experiences that tell your story with warmth and authenticity. From social media management to branding, we bring boutique care to every project.</p>
-                <div class="hero-cta">
-                    <a href="/contact" class="btn-primary">Start Your Story</a>
-                    <a href="/services" class="btn-secondary">Explore Services</a>
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge">Boutique Digital Studio · Social + Branding</div>
+                <h1>Curated Content,<br>Thoughtfully Made.</h1>
+                <p>We craft personalized digital experiences that tell your story with warmth and authenticity. From social media management to branding, we bring boutique care to every project.</p>
+                <div class="hero-buttons">
+                    <a href="/contact" class="btn btn-primary btn-lg">Start Your Story</a>
+                    <a href="/services" class="btn btn-secondary btn-lg">Explore Services</a>
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="hero-image-wrapper">
-                    <div class="decorative-element"></div>
-                    <div class="hero-placeholder">
-                        <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="400" height="500" fill="#EAE8E4"/>
-                            <path d="M200 150 L250 200 L200 250 L150 200 Z" fill="#4D5A42" opacity="0.3"/>
-                            <circle cx="200" cy="300" r="40" fill="#BDA29D" opacity="0.5"/>
-                            <rect x="160" y="360" width="80" height="80" fill="#2F3E34" opacity="0.2"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <span>Scroll to explore</span>
-            <div class="scroll-line"></div>
-        </div>
-    </section>
-
-    <!-- Who We Are -->
-    <section class="intro">
-        <div class="container">
-            <div class="intro-grid">
-                <div class="intro-text">
-                    <h2>A Boutique Studio with Big-Agency Results</h2>
-                    <p>At Curate & Co., we believe your brand deserves more than cookie-cutter content. We're a small, passionate team dedicated to crafting digital experiences that feel as inviting as your favorite spring garden.</p>
-                    <p>Every project receives the personal attention, creative strategy, and handcrafted quality that only a boutique studio can provide. No templates. No rush jobs. Just thoughtful, beautiful work.</p>
-                </div>
-                <div class="intro-stats">
-                    <div class="stat-card">
-                        <div class="stat-number">$500</div>
-                        <div class="stat-label">Starter Package</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">3+</div>
-                        <div class="stat-label">Platforms Managed</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">100%</div>
-                        <div class="stat-label">Boutique Care</div>
+                <div class="hero-mockup">
+                    <div class="mockup-label">Your Brand on Instagram</div>
+                    <div class="phone-mockup">
+                        <div class="ig-grid">
+                            <div class="ig-tile"></div>
+                            <div class="ig-tile"></div>
+                            <div class="ig-tile"></div>
+                            <div class="ig-tile"></div>
+                            <div class="ig-tile"></div>
+                            <div class="ig-tile"></div>
+                            <div class="ig-tile"></div>
+                            <div class="ig-tile"></div>
+                            <div class="ig-tile"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Overview -->
-    <section class="services-preview">
+    <!-- Stats Strip -->
+    <section class="stats-strip">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">$500</div>
+                <div class="stat-label">Starting Investment</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3-5</div>
+                <div class="stat-label">Platforms Managed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Managed For You</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">No</div>
+                <div class="stat-label">Long-Term Contracts</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">What We Do</p>
+                <span class="eyebrow">What We Do</span>
                 <h2>Services Crafted for Growth</h2>
-                <p class="section-description">We blend strategic thinking with creative execution to help your brand thrive online.</p>
+                <p>We blend strategic thinking with creative execution to help your brand thrive online.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
@@ -107,17 +110,18 @@
                     </div>
                     <h3>Social Media Management</h3>
                     <p>Expert management across multiple platforms with engaging content, consistent posting, and authentic community building.</p>
+                    <div class="service-benefit">→ Grow consistent, on-brand content without doing it yourself</div>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="10" y="10" width="40" height="40" rx="4" stroke="currentColor" stroke-width="2"/>
-                            <path d="M20 25 L40 25" stroke="currentColor" stroke-width="2"/>
-                            <path d="M20 35 L35 35" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 25 L40 25 M20 35 L35 35" stroke="currentColor" stroke-width="2"/>
                         </svg>
                     </div>
                     <h3>Branding & Visual Identity</h3>
                     <p>From consultation to complete brand packages, we create cohesive visual identities that tell your unique story.</p>
+                    <div class="service-benefit">→ Standout brand visuals that feel like 'you'</div>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
@@ -129,6 +133,7 @@
                     </div>
                     <h3>Content Creation</h3>
                     <p>Beautiful posts, engaging reels, stunning graphics—all designed to captivate your audience and strengthen your brand.</p>
+                    <div class="service-benefit">→ Professional content that stops the scroll</div>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
@@ -139,46 +144,48 @@
                     </div>
                     <h3>Engagement & Analytics</h3>
                     <p>We don't just post and ghost. Track performance, refine strategy, and watch your community grow with data-driven insights.</p>
+                    <div class="service-benefit">→ Clear metrics that show real business growth</div>
                 </div>
             </div>
-            <div class="cta-center">
-                <a href="/services" class="btn-primary">View All Packages</a>
+            <div class="text-center mt-lg">
+                <a href="/services" class="btn btn-primary btn-lg">View All Packages</a>
             </div>
         </div>
     </section>
 
-    <!-- Why Choose Us -->
+    <!-- Why Us Section -->
     <section class="why-us">
         <div class="container">
             <div class="why-grid">
                 <div class="why-content">
-                    <h2>Why Curate & Co.?</h2>
+                    <span class="eyebrow">Why Choose Us</span>
+                    <h2>Boutique Care Meets Agency Results</h2>
                     <div class="why-list">
                         <div class="why-item">
                             <div class="why-icon">✓</div>
                             <div class="why-text">
-                                <h4>Boutique Attention, Premium Results</h4>
+                                <h4>Boutique Attention</h4>
                                 <p>You're not a ticket number. Every client receives dedicated, personal service with agency-level expertise.</p>
                             </div>
                         </div>
                         <div class="why-item">
                             <div class="why-icon">✓</div>
                             <div class="why-text">
-                                <h4>Handcrafted for Your Brand</h4>
-                                <p>No templates, no shortcuts. We create custom content that authentically represents your unique story and values.</p>
+                                <h4>Handcrafted Content</h4>
+                                <p>No templates, no shortcuts. We create custom content that authentically represents your unique story.</p>
                             </div>
                         </div>
                         <div class="why-item">
                             <div class="why-icon">✓</div>
                             <div class="why-text">
-                                <h4>Warm, Collaborative Experience</h4>
+                                <h4>Warm Collaboration</h4>
                                 <p>Work with a team that genuinely cares. We're partners in your success, not just service providers.</p>
                             </div>
                         </div>
                         <div class="why-item">
                             <div class="why-icon">✓</div>
                             <div class="why-text">
-                                <h4>Strategic & Creative Balance</h4>
+                                <h4>Strategic Balance</h4>
                                 <p>Beautiful content that actually works. We combine aesthetic excellence with data-driven strategy.</p>
                             </div>
                         </div>
@@ -187,9 +194,9 @@
                 <div class="why-visual">
                     <div class="testimonial-card">
                         <div class="testimonial-stars">★★★★★</div>
-                        <p class="testimonial-text">"Working with Curate & Co. transformed our social media presence. Their attention to detail and genuine care for our brand shows in every post."</p>
+                        <p class="testimonial-text">Working with Curate & Co. transformed our social media presence. Their attention to detail and genuine care for our brand shows in every post.</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar"></div>
+                            <div class="author-avatar">SM</div>
                             <div>
                                 <div class="author-name">Sarah Mitchell</div>
                                 <div class="author-title">Meadow & Mallow Café</div>
@@ -201,12 +208,13 @@
         </div>
     </section>
 
-    <!-- Process -->
+    <!-- Process Section -->
     <section class="process">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">Our Approach</p>
+                <span class="eyebrow">Our Approach</span>
                 <h2>A Simple, Intentional Process</h2>
+                <p>Every project follows our thoughtful, collaborative approach</p>
             </div>
             <div class="process-grid">
                 <div class="process-step">
@@ -233,42 +241,45 @@
         </div>
     </section>
 
-    <!-- Portfolio Preview -->
-    <section class="portfolio-preview">
+    <!-- Portfolio Section -->
+    <section class="portfolio">
         <div class="container">
             <div class="portfolio-header">
                 <div>
-                    <p class="section-eyebrow">Our Work</p>
+                    <span class="eyebrow">Our Work</span>
                     <h2>Recent Projects</h2>
                 </div>
-                <a href="/portfolio" class="btn-secondary">View Full Portfolio</a>
+                <a href="/portfolio" class="btn btn-secondary">View Full Portfolio</a>
             </div>
             <div class="portfolio-grid">
                 <div class="portfolio-item">
                     <div class="portfolio-image">
                         <div class="portfolio-placeholder meadow"></div>
+                        <div class="portfolio-overlay">View Case Study →</div>
                     </div>
                     <div class="portfolio-info">
                         <h3>Meadow & Mallow Café</h3>
-                        <p>Social Media & Content</p>
+                        <span class="portfolio-tag">Social Media & Content</span>
                     </div>
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
                         <div class="portfolio-placeholder willow"></div>
+                        <div class="portfolio-overlay">View Case Study →</div>
                     </div>
                     <div class="portfolio-info">
                         <h3>Willow & Wren Apothecary</h3>
-                        <p>Branding & Visual Identity</p>
+                        <span class="portfolio-tag">Branding & Visual Identity</span>
                     </div>
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
                         <div class="portfolio-placeholder thistle"></div>
+                        <div class="portfolio-overlay">View Case Study →</div>
                     </div>
                     <div class="portfolio-info">
                         <h3>The Thistle Room</h3>
-                        <p>Complete Digital Presence</p>
+                        <span class="portfolio-tag">Complete Digital Presence</span>
                     </div>
                 </div>
             </div>
@@ -277,16 +288,14 @@
 
     <!-- CTA Section -->
     <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Grow Your Brand?</h2>
-                <p>Let's create something beautiful together. Book a free discovery call to discuss how we can help elevate your digital presence.</p>
-                <div class="cta-buttons">
-                    <a href="/contact" class="btn-primary-large">Book Your Discovery Call</a>
-                    <a href="/services" class="btn-secondary-large">View Our Packages</a>
-                </div>
-                <p class="cta-note">Starting at just $500/month · No long-term contracts</p>
+        <div class="cta-content">
+            <h2>Ready to Grow Your Brand?</h2>
+            <p>Let's create something beautiful together. Book a free discovery call to discuss how we can help elevate your digital presence.</p>
+            <div class="cta-buttons">
+                <a href="/contact" class="btn btn-primary btn-lg">Book Your Discovery Call</a>
+                <a href="/services" class="btn btn-secondary btn-lg">View Our Packages</a>
             </div>
+            <p class="cta-note">Starting at just $500/month · No long-term contracts</p>
         </div>
     </section>
 
@@ -297,7 +306,7 @@
                 <div class="footer-brand">
                     <div class="footer-logo">Curate & Co.</div>
                     <p>Curated Content, Thoughtfully Made.</p>
-                    <p class="footer-tagline">A boutique digital studio for brands that value authenticity, warmth, and intentional growth.</p>
+                    <p>A boutique digital studio for brands that value authenticity, warmth, and intentional growth.</p>
                 </div>
                 <div class="footer-links">
                     <h4>Navigation</h4>
@@ -312,27 +321,20 @@
                 <div class="footer-links">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="services.html#starter">Starter Package</a></li>
-                        <li><a href="services.html#growth">Growth Package</a></li>
-                        <li><a href="services.html#pro">Pro Package</a></li>
-                        <li><a href="services.html#addons">Add-Ons</a></li>
+                        <li><a href="/services#starter">Starter Package</a></li>
+                        <li><a href="/services#growth">Growth Package</a></li>
+                        <li><a href="/services#pro">Pro Package</a></li>
+                        <li><a href="/services#addons">Add-Ons</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
                     <h4>Connect</h4>
                     <ul>
-                        <li><a href="/cdn-cgi/l/email-protection#1179747d7d7e51726463706574707f75727e3f727e7c"><span class="__cf_email__" data-cfemail="98f0fdf4f4f7d8fbedeaf9ecfdf9f6fcfbf7b6fbf7f5">[email&#160;protected]</span></a></li>
+                        <li><a href="/cdn-cgi/l/email-protection#5139343d3d3e11322423302534303f35323e7f323e3c"><span class="__cf_email__" data-cfemail="b3dbd6dfdfdcf3d0c6c1d2c7d6d2ddd7d0dc9dd0dcde">[email&#160;protected]</span></a></li>
                         <li><a href="/contact">Book a Call</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Curate & Co. All rights reserved.</p>
-                <p>Crafted with care and intention.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
-</body>
-</html>
+                <p>Craf

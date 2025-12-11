@@ -1,141 +1,293 @@
-<!-- CONTACT PAGE HTML -->
-<!-- Paste this into a new WordPress page in HTML/Code Editor mode -->
-
-<section class="page-header">
-    <div class="container">
-        <p class="page-eyebrow">Get In Touch</p>
-        <h1>Let's Create Something<br>Beautiful Together</h1>
-        <p class="page-description">Ready to elevate your brand's digital presence? Book a free discovery call or send us a message. We'd love to hear your story.</p>
-    </div>
-</section>
-
-<section class="contact-section">
-    <div class="container">
-        <div class="contact-grid">
-            <div class="contact-info">
-                <h3>We're Here to Help</h3>
-                <p>Whether you're just starting out or looking to refresh your existing presence, we're excited to learn about your vision and explore how we can bring it to life with warmth, creativity, and strategic expertise.</p>
-                
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                                <path d="M3 8L10.89 13.26C11.567 13.672 12.433 13.672 13.11 13.26L21 8M5 19H19C20.105 19 21 18.105 21 17V7C21 5.895 20.105 5 19 5H5C3.895 5 3 5.895 3 7V17C3 18.105 3.895 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <div class="contact-text">
-                            <h4>Email Us</h4>
-                            <p><a href="mailto:hello@curateandco.com">hello@curateandco.com</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                                <path d="M8 2V5M16 2V5M3.5 9.09H20.5M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M15.695 13.7H15.704M15.695 16.7H15.704M11.995 13.7H12.005M11.995 16.7H12.005M8.29498 13.7H8.30398M8.29498 16.7H8.30398" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <div class="contact-text">
-                            <h4>Book a Discovery Call</h4>
-                            <p>Schedule a free 30-minute consultation</p>
-                            <p><a href="#" style="font-weight: 600;">View availability →</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                                <path d="M12 13.43C13.7231 13.43 15.12 12.0331 15.12 10.31C15.12 8.58687 13.7231 7.19 12 7.19C10.2769 7.19 8.88 8.58687 8.88 10.31C8.88 12.0331 10.2769 13.43 12 13.43Z" stroke="currentColor" stroke-width="2"/>
-                                <path d="M3.62001 8.49C5.59001 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.39001 20.54C5.63001 17.88 2.47001 13.57 3.62001 8.49Z" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <div class="contact-text">
-                            <h4>Our Studio</h4>
-                            <p>Remote-first, serving clients nationwide</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--soft-sand);">
-                    <h4 style="margin-bottom: 1rem;">Response Time</h4>
-                    <p style="margin-bottom: 0;">We typically respond to all inquiries within 24 hours during business days. For urgent requests, please mention that in your message.</p>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Curate & Co. | Book Your Discovery Call</title>
+    <meta name="description" content="Ready to elevate your social media? Contact Curate & Co. for boutique Instagram + TikTok management in Asheville & Hendersonville, NC.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">Curate & Co.</a>
             
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Your Name *</label>
-                        <input type="text" id="name" name="name" required placeholder="Jane Doe">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email Address *</label>
-                        <input type="email" id="email" name="email" required placeholder="jane@example.com">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="business">Business/Brand Name</label>
-                        <input type="text" id="business" name="business" placeholder="Your Business Name">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="service">Interested In *</label>
-                        <select id="service" name="service" required>
-                            <option value="">Select a service</option>
-                            <option value="starter">Starter Package ($500/mo)</option>
-                            <option value="growth">Growth Package ($900/mo)</option>
-                            <option value="pro">Pro Package ($1,500/mo)</option>
-                            <option value="custom">Custom Package</option>
-                            <option value="consultation">Just Exploring / Consultation</option>
-                        </select>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Tell Us About Your Project *</label>
-                        <textarea id="message" name="message" required placeholder="Share your vision, goals, and what you're hoping to achieve with your digital presence..."></textarea>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="budget">Estimated Budget Range</label>
-                        <select id="budget" name="budget">
-                            <option value="">Select a range</option>
-                            <option value="500-1000">$500 - $1,000/month</option>
-                            <option value="1000-2000">$1,000 - $2,000/month</option>
-                            <option value="2000-5000">$2,000 - $5,000/month</option>
-                            <option value="5000+">$5,000+/month</option>
-                            <option value="flexible">Flexible / Not Sure Yet</option>
-                        </select>
-                    </div>
-                    
-                    <button type="submit" class="btn-primary form-submit">Send Message</button>
-                    
-                    <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8; text-align: center;">
-                        We respect your privacy. Your information will never be shared.
-                    </p>
-                </form>
-            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="nav-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/services" class="nav-link">Services</a></li>
+                <li><a href="/portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="/about" class="nav-link">About</a></li>
+                <li><a href="/contact" class="nav-link nav-link-cta active">Let's Connect</a></li>
+            </ul>
         </div>
-    </div>
-</section>
+    </nav>
 
-<section class="cta-section">
-    <div class="container">
-        <div class="cta-content">
-            <h2>Prefer to Talk First?</h2>
-            <p>Book a free 30-minute discovery call to discuss your project, ask questions, and see if we're the right fit. No pressure, no sales pitch—just a genuine conversation.</p>
-            <div class="cta-buttons">
-                <a href="#" class="btn-primary-large">Schedule Your Call</a>
+    <!-- Hero Section -->
+    <section class="hero hero-simple">
+        <div class="container">
+            <p class="hero-badge">Get in Touch</p>
+            <h1 class="hero-title">Let's Talk About Your Brand</h1>
+            <p class="hero-subtitle">
+                Book a free 30-minute discovery call to discuss your goals, challenges, and how we can help grow your social media presence.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2 class="contact-heading">Send Us a Message</h2>
+                    <p class="contact-description">
+                        Fill out the form below and we'll get back to you within 24-48 hours. No pressure, no hard sell—just an honest conversation about your needs.
+                    </p>
+
+                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="form-input" 
+                                required 
+                                placeholder="Jane Smith"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-input" 
+                                required 
+                                placeholder="jane@business.com"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="business" class="form-label">Business Name *</label>
+                            <input 
+                                type="text" 
+                                id="business" 
+                                name="business" 
+                                class="form-input" 
+                                required 
+                                placeholder="Your Business Name"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="website" class="form-label">Website or Instagram (optional)</label>
+                            <input 
+                                type="text" 
+                                id="website" 
+                                name="website" 
+                                class="form-input" 
+                                placeholder="@yourbusiness or yoursite.com"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="package" class="form-label">Package Interest</label>
+                            <select id="package" name="package" class="form-select">
+                                <option value="">Not sure yet</option>
+                                <option value="starter">Starter ($400/mo)</option>
+                                <option value="standard">Standard ($1,200/mo)</option>
+                                <option value="premium">Premium ($2,200/mo)</option>
+                                <option value="custom">Custom/Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Tell Us About Your Business *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="form-textarea" 
+                                rows="6" 
+                                required 
+                                placeholder="What do you do? What are your social media goals? What challenges are you facing?"
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+
+                        <p class="form-note">
+                            * Required fields. We respect your privacy and will never share your information.
+                        </p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper">
+                    <div class="contact-info-card">
+                        <h3 class="contact-info-title">What to Expect</h3>
+                        <ul class="contact-info-list">
+                            <li>
+                                <strong>Response Time:</strong> We'll reply within 24-48 hours (usually sooner!)
+                            </li>
+                            <li>
+                                <strong>Discovery Call:</strong> 30-minute Zoom to understand your business and goals
+                            </li>
+                            <li>
+                                <strong>Custom Proposal:</strong> If we're a good fit, we'll send a tailored proposal
+                            </li>
+                            <li>
+                                <strong>No Pressure:</strong> We're here to help, not hard-sell. Honest advice, always.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3 class="contact-info-title">Other Ways to Connect</h3>
+                        <div class="contact-method">
+                            <strong>Email:</strong><br>
+                            <a href="mailto:hello@curateandco.com">hello@curateandco.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <strong>Location:</strong><br>
+                            Hendersonville / Asheville Area, NC<br>
+                            <em>(We work with businesses locally and beyond)</em>
+                        </div>
+                        <div class="contact-method">
+                            <strong>Hours:</strong><br>
+                            Monday – Friday, 9am – 5pm ET<br>
+                            <em>(We reply to emails outside these hours too!)</em>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3 class="contact-info-title">Prefer to Email Directly?</h3>
+                        <p>
+                            No problem! Send us a note at <a href="mailto:hello@curateandco.com">hello@curateandco.com</a> with:
+                        </p>
+                        <ul class="contact-checklist">
+                            <li>Your business name</li>
+                            <li>What you're looking for</li>
+                            <li>Your biggest social media challenge</li>
+                        </ul>
+                        <p>
+                            We'll schedule a discovery call from there.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-rafted with care and intention.</p>
+    </section>
+
+    <!-- FAQ Quick Hits -->
+    <section class="contact-faq">
+        <div class="container">
+            <h2 class="contact-faq-title">Quick Questions</h2>
+            <div class="contact-faq-grid">
+                <div class="contact-faq-item">
+                    <h3 class="contact-faq-question">Do you work with businesses outside Asheville?</h3>
+                    <p class="contact-faq-answer">
+                        Yes! While we're based locally, we work with boutique brands anywhere who align with our values.
+                    </p>
+                </div>
+
+                <div class="contact-faq-item">
+                    <h3 class="contact-faq-question">What if I'm not sure which package is right?</h3>
+                    <p class="contact-faq-answer">
+                        That's what the discovery call is for! We'll help you figure out what makes sense for your goals and budget.
+                    </p>
+                </div>
+
+                <div class="contact-faq-item">
+                    <h3 class="contact-faq-question">How quickly can we get started?</h3>
+                    <p class="contact-faq-answer">
+                        Typically 2-3 weeks from signing. We do an onboarding process to understand your brand before launching content.
+                    </p>
+                </div>
+
+                <div class="contact-faq-item">
+                    <h3 class="contact-faq-question">Do you require long-term contracts?</h3>
+                    <p class="contact-faq-answer">
+                        Nope! All packages are month-to-month. We earn your business every month by doing great work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h3 class="footer-logo">Curate & Co.</h3>
+                    <p class="footer-tagline">Curated Content, Thoughtfully Made.</p>
+                    <p class="footer-description">
+                        A boutique digital studio for brands that value authenticity, warmth, and intentional growth.
+                    </p>
+                    <p class="footer-location">📍 Hendersonville / Asheville Area, NC</p>
+                </div>
+
+                <!-- Navigation Column -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/portfolio">Portfolio</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Column -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="/services#starter">Starter Package</a></li>
+                        <li><a href="/services#standard">Standard Package</a></li>
+                        <li><a href="/services#premium">Premium Package</a></li>
+                        <li><a href="/services#addons">Add-Ons</a></li>
+                    </ul>
+                </div>
+
+                <!-- Connect Column -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:hello@curateandco.com">hello@curateandco.com</a></li>
+                        <li><a href="/contact">Book a Call</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Curate & Co. All rights reserved.</p>
+                <p class="footer-crafted">Crafted with care and intention.</p>
             </div>
         </div>
     </footer>
 
+    <!-- JavaScript -->
     <script src="js/script.js"></script>
 </body>
 </html>
